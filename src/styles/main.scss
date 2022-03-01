@@ -1,0 +1,73 @@
+
+
+.Main{
+    background-color: rgb(255, 255, 255);
+	color: black;
+	.caja, .cajaM{
+		background-color: #3a62d3;
+		
+	}
+	.nav-link, .nav-linkM{
+		background-color: #3a62d3;
+		color: rgb(255, 255, 255);
+	}
+	.modoDark{
+	display: none;
+	
+}
+.modoNormal{
+	display: block;
+}
+}
+	
+
+.Dark{
+	background-color: black;
+	color: rgb(255, 255, 255);
+	.caja, .cajaM{
+		background-color: black;
+	}
+	
+	.nav-link, .nav-linkM{
+		background-color: black;
+		color: white;
+	}
+	.modoDark{
+	display: block;
+	color: white;
+}
+.modoNormal{
+	display: none;
+}
+
+}
+
+
+.header-top {
+	width:  200px;
+	height: 30px;
+	padding: 8px;
+	position: relative;
+	left: 8px;
+	
+}
+.modoNormal{
+	position: relative;
+	left: 70px;
+	bottom: 44px;
+}
+.modoDark{
+	position: relative;
+	left: 70px;
+	bottom: 44px;
+	
+}
+
+
+
+
+
+
+
+
+

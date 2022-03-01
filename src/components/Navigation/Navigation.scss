@@ -1,0 +1,124 @@
+.caja{
+  width: 95%;
+  height: 30px;
+  padding: 10px;
+  margin:0 20px 20px 20px;
+  border-radius: 15px;
+  outline: solid rgb(6, 70, 247);
+  text-align: center;
+}
+.verMobile, .cajaM{
+  display: none;
+}
+
+
+.nav-link{
+  display: inline-block;
+  position: relative;
+  bottom: 5px;padding: 10px 30px;
+  margin: 1px;
+  text-decoration: none;
+}
+.nav-link-print{
+  display: inline-block;
+  position: relative;
+  bottom: 5px;padding: 10px 30px;
+  margin: 1px;
+  text-decoration: none;
+}
+.nav-link:hover{
+  color: red;
+  text-decoration: underline;
+}
+.join{
+  color: white;
+  background-color: red;
+  border: 1px solid blue;
+  width: 70px;
+  padding: 12px;
+  border-radius: 20px;
+  position: absolute;
+  right: 70px;
+  top: 70px;
+  text-decoration: none;
+}
+.title{
+position: absolute;
+left: 210px;
+top: 200px;
+font-size: 50px;
+}
+.mark{
+  position: absolute;
+  right: 110px;
+  top: 200px;
+  width: 35%;
+  border-radius: 50%;
+}
+/* .App {
+  text-align: center;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 640px){
+  .nav-link{
+    padding: 5px;
+  }
+  .caja{
+    width: 88%;
+  }
+  .nav-link{
+    display: none;
+  }
+  .editImage{
+  width: 35px;
+  position: relative;
+  bottom: 44px;
+  right: 45%;
+}
+.verMobile, .cajaM{
+  display: block;
+}
+.Print-button{
+  position: relative;
+  left: 170px;
+  bottom: 2px;
+
+}
+  
+}
