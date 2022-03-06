@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Frontend-React-CV/static/css/main.21960968.css",
+    "main.js": "/Frontend-React-CV/static/js/main.264c11d7.js",
+    "static/js/377.fd151cb1.chunk.js": "/Frontend-React-CV/static/js/377.fd151cb1.chunk.js",
+    "static/media/icon ubicacion.png": "/Frontend-React-CV/static/media/icon ubicacion.8813481167c60564ba7b.png",
+    "static/media/icon email.png": "/Frontend-React-CV/static/media/icon email.a7b0720334f4c48e5dc7.png",
+    "static/media/perfil.jpg": "/Frontend-React-CV/static/media/perfil.9ca41d255993853f64c9.jpg",
+    "service-worker.js": "/Frontend-React-CV/service-worker.js",
+    "static/media/icon phone.png": "/Frontend-React-CV/static/media/icon phone.5dd0dcb9afb6e5000921.png",
+    "index.html": "/Frontend-React-CV/index.html",
+    "main.21960968.css.map": "/Frontend-React-CV/static/css/main.21960968.css.map",
+    "main.264c11d7.js.map": "/Frontend-React-CV/static/js/main.264c11d7.js.map",
+    "377.fd151cb1.chunk.js.map": "/Frontend-React-CV/static/js/377.fd151cb1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21960968.css",
+    "static/js/main.264c11d7.js"
+  ]
+}
