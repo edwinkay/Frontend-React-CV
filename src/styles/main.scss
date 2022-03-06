@@ -3,6 +3,7 @@
 .Main{
     background-color: rgb(255, 255, 255);
 	color: black;
+	padding: 22px;
 	.caja, .cajaM{
 		background-color: #3a62d3;
 		
@@ -17,6 +18,12 @@
 }
 .modoNormal{
 	display: block;
+}
+.subtitle{
+    color: rgb(0, 0, 0);
+}
+.paragraph{
+    color: black;
 }
 }
 	
@@ -38,6 +45,12 @@
 }
 .modoNormal{
 	display: none;
+}
+.subtitle{
+    color: rgb(255, 255, 255);
+}
+.paragraph{
+    color: rgb(255, 255, 255);
 }
 
 }
@@ -61,6 +74,12 @@
 	left: 70px;
 	bottom: 44px;
 	
+}
+@media (max-width: 640px){
+	.header-top{
+		position: relative;
+		left: -2px;
+	}
 }
 
 

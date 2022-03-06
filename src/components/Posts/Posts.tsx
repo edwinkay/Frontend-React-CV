@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./posts.scss"
 
 function Posts() {
   return (
     <div className="home">
       <div className="container">
-        <Link to="/bonus/this-is-a-post-title">
+        <Link to="/bonus/Thanks for watching">
           <div className="row align-items-center my-5">
             <div className="col-lg-7">
               <img
@@ -15,12 +16,11 @@ function Posts() {
               />
             </div>
             <div className="col-lg-5">
-              <h1 className="font-weight-light">This is a post title</h1>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+              <h1 className="subtitle">Click to see projects</h1>
+              <p className="paragraph">
+                Here you will find my first projects in html, css, & native
+                javascript, also using libraries like bootstrap, tailwind and
+                others.
               </p>
             </div>
           </div>

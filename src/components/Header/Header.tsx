@@ -5,6 +5,7 @@ import wsp from "../../assets/icons/icon phone.png";
 import email from "../../assets/icons/icon email.png";
 import location from "../../assets/icons/icon ubicacion.png";
 
+
 function Home() {
 
   
@@ -45,7 +46,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="box">
+      <div className="box3">
         <div className="left">
           <div className="content">
             <h3>ABOUT ME</h3>

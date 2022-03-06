@@ -1,5 +1,4 @@
 .caja{
-  width: 95%;
   height: 30px;
   padding: 10px;
   margin:0 20px 20px 20px;
@@ -99,11 +98,28 @@ font-size: 50px;
   .nav-link{
     padding: 5px;
   }
+  
   .caja{
-    width: 88%;
+    width: 93%;
+    margin: 0px 20px 20px 5px
+  }
+  
+  .left {
+    float: none;
+    width: 100%;
+   } 
+   .right {
+    float: none;
+    width: 100%;
+   } 
+  .left .content{
+    border-right: none;
   }
   .nav-link{
     display: none;
+  }
+  .nav-link-print{
+    margin-right: 133px;
   }
   .editImage{
   width: 35px;
@@ -116,7 +132,7 @@ font-size: 50px;
 }
 .Print-button{
   position: relative;
-  left: 170px;
+  left: 175px;
   bottom: 2px;
 
 }

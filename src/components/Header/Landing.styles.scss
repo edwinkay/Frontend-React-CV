@@ -1,8 +1,6 @@
 
 .box {
- 
-  width: 91%;
-  height: 100%px;
+  height: 100%;
   padding: 10px;
   margin: 20px;
   border-radius: 15px;
@@ -72,11 +70,34 @@
   width: 130px;
   text-align: center;
   margin: 12px;
-  
 }
+
 @media (max-width: 640px) {
   .box{
-    width: 88%;
+    width: 93%;
+    margin-left: 6px;
+  }
+  .Main {
+    margin-left: -11px;
+  }
+  .box3{
+    padding: 1px 0 7px 0;
+    border-radius: 15px;
+    outline: solid #3a62d3;
+  }
+  .display{
+    display: block;
+    margin: 15px;
+  }
+  .myImage{
+    margin: 0;
+    bottom: 7px;
+    position: relative;
+    left: -07px;
+  }
+  .adjust{
+    margin-left: 12px;
+    
   }
   .adjust{
   font-size: 12px;
@@ -90,7 +111,8 @@
    }
    .littleBit{
      position: relative;
-     top: 17px;
+     top: 0px;
+     left: 14px;
    }
 }
 ////////////////
@@ -378,3 +400,5 @@
     z-index: 4;
   }
 }
+////////////////////
+

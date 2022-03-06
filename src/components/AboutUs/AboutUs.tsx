@@ -3,7 +3,60 @@ import React from "react";
 function Projects() {
   return (
     <div className="box">
-      
+      <div className="box5">
+        <div className="left5">
+          <div className="content5">
+            <div className="izquierdo">
+              <iframe
+                src="https://edwinkay.github.io/IsPalindromo/"
+                className="width-vid1"
+              ></iframe>
+              <p className="rightParagraph">
+                Application that checks if it is a palindrome or not. <br />
+                <a href="https://edwinkay.github.io/IsPalindromo/">
+                  click on the link to see it in full.
+                </a>
+              </p>
+              <iframe
+                src="https://edwinkay.github.io/IsPalindromo/"
+                className="width-vid1"
+              ></iframe>
+              <p className="rightParagraph">
+                Application that checks if it is a palindrome or not. <br />
+                <a href="https://edwinkay.github.io/IsPalindromo/">
+                  click on the link to see it in full.
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="derecho">
+          <div className="right5">
+            <div className="content5">
+              <iframe
+                src="https://carritodimi.netlify.app/"
+                className="width-vid2"
+              ></iframe>
+              <p className="rightParagraph">
+                Application that checks if it is a palindrome or not. <br />
+                <a href="https://edwinkay.github.io/IsPalindromo/">
+                  click on the link to see it in full.
+                </a>
+              </p>
+              <iframe
+                src="https://edwinkay.github.io/IsPalindromo/"
+                className="width-vid1"
+              ></iframe>
+              <p className="rightParagraph">
+                Application that checks if it is a palindrome or not. <br />
+                <a href="https://edwinkay.github.io/IsPalindromo/">
+                  click on the link to see it in full.
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
