@@ -24,7 +24,7 @@ function App() {
 
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/Edwin" element={<Edwin />} />
+            <Route path="/Frontend-React-CV" element={<Edwin />} />
 
             <Route path="/projects" element={<Projects />} />
             <Route path="/bonus" element={<Bonus />}>
