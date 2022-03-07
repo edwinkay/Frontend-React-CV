@@ -9,6 +9,7 @@ import Projects from '../components/AboutUs/AboutUs';
 import Footer from '../components/Footer/Footer';
 import NotFound from '../pages/NotFound';
 import Main from '../pages/Main';
+import Edwin from '../pages/EdwinCuetia';
 
 
 
@@ -18,23 +19,22 @@ function App() {
   return (
     <div className="App">
       <Main>
-      <Router>
+        <Router>
+          <Navigation />
 
-        <Navigation />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/Edwin" element={<Edwin />} />
 
-        <Routes>
-          
-          <Route path="/" element={<Home />} />
-          
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/bonus" element={<Bonus />}>
-            <Route path="" element={<Posts />} />
-            <Route path=":postSlug" element={<Post />} />
-          </Route>
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-        <Footer />
-      </Router>
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/bonus" element={<Bonus />}>
+              <Route path="" element={<Posts />} />
+              <Route path=":postSlug" element={<Post />} />
+            </Route>
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+          <Footer />
+        </Router>
       </Main>
     </div>
   );
