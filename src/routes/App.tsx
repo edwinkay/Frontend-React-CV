@@ -32,7 +32,7 @@ function App() {
               <Route path="" element={<Posts />} />
               <Route path=":postSlug" element={<Post />} />
             </Route>
-            <Route path="/login" element={<Login />} /> 
+            {/* <Route path="/login" element={<Login />} />  */}
             <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />

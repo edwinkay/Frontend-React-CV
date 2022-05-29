@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Frontend-React-CV/static/css/main.21960968.css",
-    "main.js": "/Frontend-React-CV/static/js/main.5789994f.js",
+    "main.css": "/Frontend-React-CV/static/css/main.151c05e6.css",
+    "main.js": "/Frontend-React-CV/static/js/main.382a094c.js",
     "static/js/377.fd151cb1.chunk.js": "/Frontend-React-CV/static/js/377.fd151cb1.chunk.js",
     "static/media/Captura de Pantalla 2022-03-06 a la(s) 3.29.54 p. m..png": "/Frontend-React-CV/static/media/Captura de Pantalla 2022-03-06 a la(s) 3.29.54 p. m..5258aa6a2765264da6f8.png",
     "static/media/icon ubicacion.png": "/Frontend-React-CV/static/media/icon ubicacion.8813481167c60564ba7b.png",
@@ -10,12 +10,12 @@
     "service-worker.js": "/Frontend-React-CV/service-worker.js",
     "static/media/icon phone.png": "/Frontend-React-CV/static/media/icon phone.5dd0dcb9afb6e5000921.png",
     "index.html": "/Frontend-React-CV/index.html",
-    "main.21960968.css.map": "/Frontend-React-CV/static/css/main.21960968.css.map",
-    "main.5789994f.js.map": "/Frontend-React-CV/static/js/main.5789994f.js.map",
+    "main.151c05e6.css.map": "/Frontend-React-CV/static/css/main.151c05e6.css.map",
+    "main.382a094c.js.map": "/Frontend-React-CV/static/js/main.382a094c.js.map",
     "377.fd151cb1.chunk.js.map": "/Frontend-React-CV/static/js/377.fd151cb1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21960968.css",
-    "static/js/main.5789994f.js"
+    "static/css/main.151c05e6.css",
+    "static/js/main.382a094c.js"
   ]
 }

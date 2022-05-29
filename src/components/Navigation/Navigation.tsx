@@ -48,11 +48,11 @@ function Navigation() {
           />
         </div>
       </ul>
-      <div className="login-style">
+      {/* <div className="login-style">
         <NavLink className="nav-link" to="/login">
           log in
         </NavLink>
-      </div>
+      </div> */}
       {toggle && <Mobile />}
       {/* <NavLink className="nav-link" to="/">
             React Multi-Page Website
