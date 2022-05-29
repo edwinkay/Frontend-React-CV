@@ -4,6 +4,7 @@ import perfil from "../../assets/image/perfil.jpg";
 import wsp from "../../assets/icons/icon phone.png";
 import email from "../../assets/icons/icon email.png";
 import location from "../../assets/icons/icon ubicacion.png";
+import { NavLink } from "react-router-dom";
 
 
 function Home() {
@@ -86,8 +87,11 @@ function Home() {
             <p>
               I have started my projects since 2019, among the most outstanding
               is this same page made in React, for more projects you can go to
-              the projects section or see my repositories hosted on{" "}
-              <a className="color" href="https://github.com/edwinkay">github.</a> 
+              the <NavLink to="/Projects">Projects</NavLink> section or see my
+              repositories hosted on{" "}
+              <a className="color" href="https://github.com/edwinkay">
+                github.
+              </a>
             </p>
           </div>
         </div>

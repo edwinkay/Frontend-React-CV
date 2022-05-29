@@ -10,6 +10,7 @@ import Footer from '../components/Footer/Footer';
 import NotFound from '../pages/NotFound';
 import Main from '../pages/Main';
 import Edwin from '../pages/EdwinCuetia';
+import Login from '../components/login/login';
 
 
 
@@ -27,10 +28,11 @@ function App() {
             <Route path="/Frontend-React-CV" element={<Edwin />} />
 
             <Route path="/projects" element={<Projects />} />
-            <Route path="/bonus" element={<Bonus />}>
+            <Route path="/react" element={<Bonus />}>
               <Route path="" element={<Posts />} />
               <Route path=":postSlug" element={<Post />} />
             </Route>
+            <Route path="/login" element={<Login />} /> 
             <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />

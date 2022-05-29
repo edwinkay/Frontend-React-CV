@@ -17,26 +17,27 @@ function Navigation() {
 
   return (
     <div className="caja">
-      <nav>
-        
-        
-        <NavLink className="nav-link" to="/">
-          Profile
-        </NavLink>
-
-        <NavLink className="nav-link" to="/Projects">
-          Projects
-        </NavLink>
-
-        <NavLink className="nav-link" to="/Bonus">
-          Bonus
-        </NavLink>
-
-        <NavLink className="nav-link-print" to="/">
-          <Printed />
-        </NavLink>
-
-      
+      <ul className="content-navbar">
+        <li>
+          <NavLink className="nav-link" to="/">
+            Profile
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className="nav-link" to="/Projects">
+            Projects
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className="nav-link" to="/React">
+            React
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className="nav-link-print" to="/">
+            <Printed />
+          </NavLink>
+        </li>
 
         <div className="verMobile">
           <img
@@ -46,7 +47,12 @@ function Navigation() {
             alt="menu"
           />
         </div>
-      </nav>
+      </ul>
+      <div className="login-style">
+        <NavLink className="nav-link" to="/login">
+          log in
+        </NavLink>
+      </div>
       {toggle && <Mobile />}
       {/* <NavLink className="nav-link" to="/">
             React Multi-Page Website

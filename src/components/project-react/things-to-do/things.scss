@@ -1,0 +1,32 @@
+.titulo{
+   color: white;
+   text-align: center;
+}
+.titulo-notas{
+  color: blue;
+}
+.miTitle{
+  color: #1b1b32;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.contenedor{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  
+}
+.tareas-lista-principal{
+  width: 600px;
+  min-height: 600px;
+  background-color: #d0d0d5;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 26px;
+}
