@@ -1,0 +1,22 @@
+
+
+.Counter{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  font-family: lato, sans-serif;
+}
+
+
+
+.container-counter{
+  height:  50px;
+  min-width: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

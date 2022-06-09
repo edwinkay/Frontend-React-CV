@@ -23,6 +23,9 @@
     margin: 20px;
     border-bottom: 1px solid #3a62d3;    
 }
+.adjust{
+  margin-bottom: 12px;
+}
 
 .positionImage{
     text-align: center;   
@@ -35,6 +38,13 @@
   width: 25px;
   overflow: hidden;
   
+}
+.icon-git{
+  color: black;
+  text-decoration: none;
+}
+.icon-git:hover{
+  color: #3a62d3;
 }
 .numero ul{
   list-style: none;

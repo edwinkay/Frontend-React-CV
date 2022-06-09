@@ -3,6 +3,7 @@ import "./Landing.styles.scss";
 import perfil from "../../assets/image/perfil.jpg";
 import wsp from "../../assets/icons/icon phone.png";
 import email from "../../assets/icons/icon email.png";
+import git from "../../assets/icons/icon-git.png"
 import location from "../../assets/icons/icon ubicacion.png";
 import { NavLink } from "react-router-dom";
 
@@ -26,7 +27,7 @@ function Home() {
               <li className="numberStyle">
                 <img className="iconos" src={wsp} alt="" />
               </li>
-              <li className="number">+57 301 7757343</li>
+              <li className="number">+57 304 3913603</li>
             </ul>
           </div>
 
@@ -36,6 +37,16 @@ function Home() {
                 <img className="iconos" src={email} alt="" />
               </li>
               <li className="number">edwinkaycut@gmail.com</li>
+            </ul>
+          </div>
+          <div className="numero">
+            <ul>
+              <img className="iconos" src={git} alt="" />
+              <li className="number">
+                <a className='icon-git' href="https://github.com/edwinkay">
+                  https://github.com/edwinkay
+                </a>
+              </li>
             </ul>
           </div>
 

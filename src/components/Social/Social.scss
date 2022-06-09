@@ -1,0 +1,244 @@
+
+
+.logo-container-social{
+   width: 100%;
+   margin: 0px;
+}
+.logo-social{
+  height: 60px;
+  width: 130px;
+}
+.fondo1{
+    padding: 1px;
+    background-color: rgb(6, 6, 46);
+    margin-bottom: 15px;
+}
+.disponibilidad{
+    height: 7em;
+}
+.tiempo{
+    text-align: center;
+    color: white;
+    padding-top: 1em;
+}
+.horario-oficina{
+    display: flex;
+    justify-content: center;
+}
+.social-ul{
+    color: white;
+    display: flex;
+    font-size: 14px;
+    gap: 2em;
+    width: 47em;
+    padding-left: 20em;
+    margin: 0;
+    height: 2em;
+}
+.social-li {
+    list-style: none; 
+    display: flex;
+    gap: 3px;  
+    align-items: center;
+}
+.space-season{
+  position: relative;
+  left: 12rem;
+}
+.lbl-switch{
+    display: inline-block;
+    width: 30px;
+    height: 15px;
+    background: #aaa;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+.btn-switch:checked~.lbl-switch{
+    background: #61A0ff;
+}
+.lbl-switch::after{
+    float: left;
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: rgb(114, 121, 187);
+    border-radius: 100px;
+    transition: 0.3s;
+}
+.btn-switch:checked~.lbl-switch::after{
+   float: right ;
+   background: rgb(0, 62, 248);
+   border: 1px solid white;
+
+}
+.btn-switch{
+    display: none;
+}
+
+.icon1{
+    color: rgb(33, 179, 94);
+}
+.fondo2{
+    background: linear-gradient(to bottom, rgb(51, 22, 214), rgb(6, 32, 17));
+    padding: 40px;
+}
+.titulo{
+    text-align: center;
+    color: white;
+}
+.tamaño-del-perfil{
+    height: 240px;
+    border-bottom: 1px dotted black;
+}
+.miPerfil{
+  position: relative;
+  bottom: 70px;
+  border: 6px solid rgb(143, 50, 205);
+  border-radius: 50%;
+  object-fit: cover;
+  height: 130px;
+  overflow: hidden;
+  padding: 0;
+  width: 130px;
+  text-align: center;
+  margin: 12px;
+  position: relative;
+}
+
+.name-perfil{
+    position: relative;
+    bottom: 170px;
+    left: 180px;
+}
+.acerca{
+    width: 77%;
+    text-align: justify;
+}
+.perfil{
+  
+  border-radius: 50%;
+  object-fit: cover;
+  height: 80px;
+  overflow: hidden;
+  padding: 0;
+  width: 80px;
+  text-align: center;
+  margin: 12px;
+}
+.perfil2{
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  height: 50px;
+  overflow: hidden;
+  padding: 0;
+  width: 50px;
+  text-align: center;
+  margin: 12px;
+}
+.sesion{
+    color: white;
+    width: 12px;
+}
+.ajustes{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.comentarios{
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: row;
+    width: 90%;
+}
+.mike{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+}
+.mike-foto{
+    border: 6px solid yellowgreen;
+}
+.ancho{
+    width: 90%;
+    height: 100vh;
+}
+.fotos{
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    
+}
+.base-comentarios{
+    margin: 40px;
+    width: 80%;
+}
+.contenedor-base{
+    float: left;
+    width: 54%;
+    
+}
+.contenedor-derecho{
+    float: right;
+    width: 46%;
+    
+}
+.seccion-fotos{
+    display: grid;
+    justify-items: center;
+    margin-left: 22%;
+    margin-bottom: 2em;
+}
+.contenedor-fotos{
+    
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 110px 110px;
+    column-gap: 5px;
+}
+.title-fotos{
+    text-align: center;
+}
+.nav-link-Fotos{
+ bottom: 5px;
+  padding: 10px 30px;
+  margin: 1px;
+  text-decoration: none;
+  color: rgb(1, 14, 9);
+}
+.nav-link-Fotos:hover{
+    color: rgb(12, 97, 47);
+}
+.agregar{
+   background: linear-gradient(to bottom, rgb(51, 22, 214), rgb(6, 32, 17));
+  border-radius: 15px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  width: 120px;
+  cursor: pointer;
+  height: 35px;
+  margin-top: 12px;
+}
+.friend-list{
+    display: grid;
+    justify-items: center;
+    margin-left: 7em;
+}
+.title-friends{
+    text-align: center;
+}
+.sel{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    column-gap: 2px;
+    width: 86%;
+}
+
+
+

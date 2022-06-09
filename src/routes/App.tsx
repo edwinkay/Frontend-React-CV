@@ -11,6 +11,7 @@ import NotFound from '../pages/NotFound';
 import Main from '../pages/Main';
 import Edwin from '../pages/EdwinCuetia';
 import Login from '../components/login/login';
+import Social from '../components/Social/Social';
 
 
 
@@ -25,8 +26,8 @@ function App() {
 
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/Social" element={<Social />} />
             <Route path="/Frontend-React-CV" element={<Edwin />} />
-
             <Route path="/projects" element={<Projects />} />
             <Route path="/react" element={<Bonus />}>
               <Route path="" element={<Posts />} />
@@ -35,8 +36,8 @@ function App() {
             {/* <Route path="/login" element={<Login />} />  */}
             <Route path="*" element={<NotFound />} />
           </Routes>
-          <Footer />
         </Router>
+        <Footer />
       </Main>
     </div>
   );

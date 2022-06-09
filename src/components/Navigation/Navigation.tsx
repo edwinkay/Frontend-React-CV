@@ -19,6 +19,11 @@ function Navigation() {
     <div className="caja">
       <ul className="content-navbar">
         <li>
+          <NavLink className="nav-link" to="/Social">
+            Social
+          </NavLink>
+        </li>
+        <li>
           <NavLink className="nav-link" to="/">
             Profile
           </NavLink>
