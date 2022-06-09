@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/Frontend-React-CV/static/css/main.151c05e6.css",
-    "main.js": "/Frontend-React-CV/static/js/main.e5b641b8.js",
-    "static/js/377.fd151cb1.chunk.js": "/Frontend-React-CV/static/js/377.fd151cb1.chunk.js",
-    "static/media/Captura de Pantalla 2022-03-06 a la(s) 3.29.54 p. m..png": "/Frontend-React-CV/static/media/Captura de Pantalla 2022-03-06 a la(s) 3.29.54 p. m..5258aa6a2765264da6f8.png",
+    "main.css": "/Frontend-React-CV/static/css/main.cefeeb4c.css",
+    "main.js": "/Frontend-React-CV/static/js/main.72184722.js",
+    "static/js/377.43abfdfa.chunk.js": "/Frontend-React-CV/static/js/377.43abfdfa.chunk.js",
+    "static/media/logo.png": "/Frontend-React-CV/static/media/logo.0f03cce443b92145a070.png",
     "static/media/icon ubicacion.png": "/Frontend-React-CV/static/media/icon ubicacion.8813481167c60564ba7b.png",
     "static/media/icon email.png": "/Frontend-React-CV/static/media/icon email.a7b0720334f4c48e5dc7.png",
     "static/media/perfil.jpg": "/Frontend-React-CV/static/media/perfil.9ca41d255993853f64c9.jpg",
     "service-worker.js": "/Frontend-React-CV/service-worker.js",
     "static/media/icon phone.png": "/Frontend-React-CV/static/media/icon phone.5dd0dcb9afb6e5000921.png",
+    "static/media/foto.jpeg": "/Frontend-React-CV/static/media/foto.32c5d406ca4c045ef7b7.jpeg",
     "index.html": "/Frontend-React-CV/index.html",
-    "main.151c05e6.css.map": "/Frontend-React-CV/static/css/main.151c05e6.css.map",
-    "main.e5b641b8.js.map": "/Frontend-React-CV/static/js/main.e5b641b8.js.map",
-    "377.fd151cb1.chunk.js.map": "/Frontend-React-CV/static/js/377.fd151cb1.chunk.js.map"
+    "main.cefeeb4c.css.map": "/Frontend-React-CV/static/css/main.cefeeb4c.css.map",
+    "main.72184722.js.map": "/Frontend-React-CV/static/js/main.72184722.js.map",
+    "377.43abfdfa.chunk.js.map": "/Frontend-React-CV/static/js/377.43abfdfa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.151c05e6.css",
-    "static/js/main.e5b641b8.js"
+    "static/css/main.cefeeb4c.css",
+    "static/js/main.72184722.js"
   ]
 }
