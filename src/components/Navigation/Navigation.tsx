@@ -19,6 +19,14 @@ function Navigation() {
     <div className="caja">
       <ul className="content-navbar">
         <li>
+          <a
+            className="nav-link"
+            href="https://github.com/edwinkay/Frontend-React-CV"
+          >
+            ver el codigo
+          </a>
+        </li>
+        <li>
           <NavLink className="nav-link" to="/Social">
             Social
           </NavLink>
